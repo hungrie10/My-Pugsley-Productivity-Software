@@ -27,7 +27,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: #FFFFFF;
+    background: #FFC71F;
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -53,12 +53,16 @@
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+    
 }
 
-
-
-
-
+#home_page_inner #content_space #home_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
 
 
 
