@@ -1,5 +1,7 @@
 import React from 'react'
 import mascot from './../../assets/mascot.png'
+import './Home.css'
+
 
 function Home() {
   return (
