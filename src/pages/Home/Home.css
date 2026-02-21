@@ -1,13 +1,15 @@
+/* Imported Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-/* Global styles for the Landing Page */
+/* Global styles for the Landing page */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 #home_page_outer{
     width: 100%;
@@ -16,53 +18,3 @@
     justify-content: center;
     align-items: center;
 }
-
-#home_page_inner{
-    overflow: hidden;
-    width: 80%;
-    height: 80%;
-    background: #FFC71F;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding: 3%;
-}
-
-#home_page_inner img{
-    width: 30%;
-}
-
-@media(max-width: 768px){
-
-    #home_page_inner img{
-        width: 70%;
-    }
-}
-
-#home_page_inner #content_space{
-   flex-direction: column;
-   color: #fff;
-   text-align: center;
-    font-family: 'Inter', sans-serif;
-}
-
-#home_page_inner #content_space h1{
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-#home_page_inner #content_space #home_buttons button{
-    width: 40%;
-    padding: 1.2%;
-    border: solid white;
-    background: transparent;
-    border-radius: 5px;
-}
-
-    #home_page_inner #content_space #home_buttons button a{
-        text-decoration: none;
-        color: white;
-    }
