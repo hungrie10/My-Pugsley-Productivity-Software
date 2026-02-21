@@ -5,9 +5,9 @@ import './Home.css'
 function Home() {
   return (
     <section id="home_page_outer">
-      <main id="home_page_inner">
-
-      </main>
+        <main id="home_page_inner">
+            
+        </main>
     </section>
   )
 }
