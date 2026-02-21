@@ -31,7 +31,7 @@
 }
 
 #home_page_inner img{
-    width: 40%;
+    width: 30%;
 }
 
 @media(max-width: 768px){
@@ -59,9 +59,10 @@
     padding: 1.2%;
     border: solid white;
     background: transparent;
+    border-radius: 5px;
 }
 
-    #home_page_inner #content_space #home_buttons button{
-
+    #home_page_inner #content_space #home_buttons button a{
+        text-decoration: none;
         color: white;
     }
