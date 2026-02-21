@@ -57,17 +57,22 @@
 }
 
 #home_page_inner #content_space #home_buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    
+    width: 70%;
 }
 
+#home_page_inner #content_space #home_buttons button{
+    width: 50%;
+    padding: 0.5rem;
+    background: transparent;
+    border: solid white 2px;
+}
 
+#home_page_inner #content_space #home_buttons button a{
+    text-decoration: none;
+    color: white;
+}    
 
-
-
+#home_page_inner #content_space #home_buttons button:hover {
 
 
 
