@@ -25,3 +25,20 @@
     flex-direction: column;
     padding: 3%;
 }
+
+#home_page_inner img{
+    width: 40%;
+}
+
+@media(max-width: 768px){
+
+    #home_page_inner img{
+        width: 80%;
+    }
+}
+
+#home_page_inner #content_space{
+   flex-direction: column;
+   text-align: center;
+
+}
