@@ -1,37 +1,4 @@
-@import "tailwindcss";
-
-/* Global Selector */
 *{
-    margin: 0;
+    margin:  0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-#home_page_outer{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background: #F5F5F5;
-    align-items: center;
-}
-
-
-#home_page_inner{
-    width: 70%;
-    height: 70%;
-    padding: 3%;
-    background: #000;
-    color: white;
-    display:  flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3vh;
-}
-
-#home_page_inner img{
-    width: 35%;
-    /* display: none; */
 }
