@@ -33,5 +33,26 @@
 }
 
 #home_page_inner img{
-    width: 30;
+    width: 35%;
 }
+
+@media(max-width: 769px){
+    #home_page_inner img{
+        width: 50%;
+    }
+}
+
+#home_page_inner #content_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    width: 90%;
+}
+
+
+
+
+
+
