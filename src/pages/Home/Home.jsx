@@ -8,7 +8,9 @@ function Home() {
     <section id="home_page_outer">
       <main id="home_page_inner">
         
-          <img src={mascot} alt="" />
+        <img src={mascot} alt="" />
+        
+        <div>
           <h2>Pugsley</h2>
         <p>
             Pugsley is a friendly productivity companion designed to help you organize your tasks, manage your time, and stay focused without the stress or overwhelm of traditional productivity tools.
@@ -19,7 +21,7 @@ function Home() {
             <Link>Set Task</Link>
           </button>
         </div>
-
+</div>
         </main>
     </section>
   )

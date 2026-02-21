@@ -21,11 +21,17 @@
 #home_page_inner{
     width: 70%;
     height: 70%;
-    p
+    padding: 3%;
     background: #000;
     color: white;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
 }
 
 #home_page_inner img{
-    display: none;
+    width: 35%;
+    /* display: none; */
 }
