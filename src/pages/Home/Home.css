@@ -1,4 +1,29 @@
+/* Global Styling for Landing Page */
+
 *{
     margin:  0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+#home_page_outer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home_page_inner{
+    overflow: hidden;
+    padding: 3%;
+    width: 80%;
+    height: 80%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
