@@ -21,6 +21,17 @@
 }
 
 #home_page_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background: #FFFFFF;
+    padding: 2rem;
+    border-radius: 1rem;
     width: 80%;
-    
+}
+
+#home_page_inner img{
+    width: 30;
 }
