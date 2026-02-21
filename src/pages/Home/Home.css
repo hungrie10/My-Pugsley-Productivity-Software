@@ -44,6 +44,7 @@
 
 #home_page_inner #content_space{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -51,6 +52,31 @@
     width: 90%;
 }
 
+#home_page_inner #content_space h2{
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
+
+#home_page_inner #content_space p{
+    font-family: 'Inter', sans-serif;
+    color: #666666;
+    text-align: center;
+}
+
+#home_page_inner #content_space #home_buttons{
+    width: 70%;
+}
+
+#home_page_inner #content_space #home_buttons button{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    background: #007BFF;
+    cursor: pointer;
+}
 
 
 
