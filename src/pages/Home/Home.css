@@ -1,6 +1,10 @@
-Global Selector
+@import "tailwindcss";
+
+/* Global Selector */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
