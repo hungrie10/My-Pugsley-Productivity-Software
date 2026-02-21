@@ -23,6 +23,7 @@
 #home_page_inner{
     background-color:#FFC71F;
     display: flex;
+    border: solid;
     justify-content: center;
     align-items: center;
     flex-direction: column;
