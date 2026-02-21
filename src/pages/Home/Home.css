@@ -34,9 +34,35 @@
 
 
 #home_page_outer #home_page_inner img{
-    width: 70%;
+    width: 35%;
 }
 
 @media (max-width: 769px) {
     
+    #home_page_outer #home_page_inner img{
+        width: 70%;
+    }
+    
 }
+
+#home_page_inner #content_space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    text-align: center;
+}
+
+#home_page_inner #content_space button{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
