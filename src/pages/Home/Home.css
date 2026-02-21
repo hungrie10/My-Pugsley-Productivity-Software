@@ -65,6 +65,8 @@
     padding: 0.5rem;
     background: transparent;
     border: solid white 2px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
 }
 
 #home_page_inner #content_space #home_buttons button a{
@@ -72,7 +74,19 @@
     color: white;
 }    
 
+#home_page_inner #content_space #home_buttons button:hover a{
+    color: black;
+}
+
 #home_page_inner #content_space #home_buttons button:hover {
+    background: white;
+}
 
+#home_page_inner #content_space #home_buttons button:active a{
+    color: black;
+}
 
+#home_page_inner #content_space #home_buttons button:active {
+    background: rgba(255, 255, 255, 0.29);
+}
 
