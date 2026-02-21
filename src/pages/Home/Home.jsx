@@ -16,6 +16,7 @@ function Home() {
             Pugsley is a friendly productivity companion designed to help you organize your tasks, manage your time, and stay focused without the stress or overwhelm of traditional productivity tools.
         </p>
 
+          <br />
         <div id="home_buttons">
           <button>
             <Link>Set Task</Link>
