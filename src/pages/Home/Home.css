@@ -7,4 +7,13 @@
     box-sizing: border-box;
 }
 
+#home_page_outer{
+    background: #F5F5F5;
+}
+
+#home_page_inner{
+    background: #000;
+}
+
+
 
