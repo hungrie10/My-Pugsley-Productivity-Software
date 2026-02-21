@@ -1,5 +1,5 @@
 import React from 'react'
-import mascot from './assets/'
+import mascot from './../../assets/mascot.png'
 
 function Home() {
   return (
