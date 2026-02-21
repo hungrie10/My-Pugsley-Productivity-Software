@@ -63,13 +63,13 @@
     text-align: center;
 }
 
-#home_page_inner #content_space #home_buttons{
+ #home_buttons{
     width: 70%;
 }
 
-#home_page_inner #content_space #home_buttons button{
-    width: 50%;
-    padding: 0.55rem;
+ #home_buttons button{
+     width: 50%;
+     padding: 0.55rem;
     border: none;
     border-radius: 7px;
     font-family: 'Inter', sans-serif;
@@ -77,9 +77,18 @@
     background: transparent;
     cursor: pointer;
     border: solid 2px white;
+    transition: 0.3s ease-in-out;
+}
+
+
+#home_buttons button:hover{
+    background: white;
+    color: #ffffffb6;
+    color: ;
 }
 
 #home_buttons button a{
+    color: white;
     text-decoration: none;
 }
 
