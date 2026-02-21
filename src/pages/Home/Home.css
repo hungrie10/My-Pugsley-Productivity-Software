@@ -1,67 +1,9 @@
-/* Imported Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+Imported Font Family
 
 
-/* Global styles for the Landing page */
-
+/* Global Styles for the Landing Page */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-#home_page_outer{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#home_page_outer #home_page_inner{
-    width: 80%;
-    height: 80%;
-    padding: 3%;
-    background: #FFFFFF;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-#home_page_outer #home_page_inner img{
-   width: 35%;
-}
-
-@media (max-width:1000px) {
-    #home_page_outer #home_page_inner img{
-        width: 45%;
-    }
-}
-
-
-
-#home_page_outer #home_page_inner #content_space {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-#home_page_outer #home_page_inner #content_space h2{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #000000;
-    text-align: center;
-}
-
-#home_page_outer #home_page_inner #content_space p{
- text-align: center;
 }
