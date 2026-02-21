@@ -1,10 +1,18 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Login from './pages/Login'
+import Workspace from './pages/Workspace'
+
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/auth" element={<Login />} />
+        <Route path="/workspace" element={<Workspace />} />
+      </Routes>
+    </>
   )
 }
 
