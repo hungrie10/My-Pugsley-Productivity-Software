@@ -10,7 +10,7 @@ function Home() {
         
         <img src={mascot} alt="" />
         
-        <div>
+        <div id='content_space'>
           <h2>Pugsley</h2>
         <p>
             Pugsley is a friendly productivity companion designed to help you organize your tasks, manage your time, and stay focused without the stress or overwhelm of traditional productivity tools.
