@@ -81,14 +81,24 @@
 }
 
 
-#home_buttons button:hover{
-    background: white;
-    color: #ffffffb6;
-    color: ;
-}
+
+
 
 #home_buttons button a{
     color: white;
     text-decoration: none;
 }
 
+#home_buttons button:hover{
+    background: white;
+    color: #ffffffb6;
+    color: black;
+}
+
+#home_buttons button:hover a{
+    color: black;
+}
+
+#home_buttons button:active{
+    background: rgba(255, 255, 255, 0.389);
+}
