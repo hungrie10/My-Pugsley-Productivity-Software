@@ -21,7 +21,7 @@
     overflow: hidden;
     width: 80%;
     height: 80%;
-    background: #fff;
+    background: #FFC71F;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
@@ -43,6 +43,7 @@
 
 #home_page_inner #content_space{
    flex-direction: column;
+   color: #fff;
    text-align: center;
     font-family: 'Inter', sans-serif;
 }
@@ -53,8 +54,14 @@
     margin-bottom: 20px;
 }
 
-#home_page_inner #content_space button{
+#home_page_inner #content_space #home_buttons button{
     width: 40%;
     padding: 1.2%;
-    b
+    border: solid white;
+    background: transparent;
 }
+
+    #home_page_inner #content_space #home_buttons button{
+
+        color: white;
+    }
