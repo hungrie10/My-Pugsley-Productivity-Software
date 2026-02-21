@@ -16,7 +16,7 @@ function Home() {
 
         <div id="home_buttons">
           <button>
-            <Link>Set Taskk</Link>
+            <Link>Set Task</Link>
           </button>
         </div>
 
