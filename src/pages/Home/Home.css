@@ -30,6 +30,7 @@
     background: #FFC71F;
     padding: 2rem;
     border-radius: 1rem;
+    color: white;
 }
 
 
@@ -48,6 +49,7 @@
 
 #home_page_inner #content_space{
     display: flex;
+    font-family: 'Inter' , sans-serif;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -55,6 +57,7 @@
     text-align: center;
     
 }
+#home_page_inner #content_space{
 
 #home_page_inner #content_space #home_buttons{
     width: 70%;
@@ -83,7 +86,7 @@
 }
 
 #home_page_inner #content_space #home_buttons button:active a{
-    color: black;
+    color: white;
 }
 
 #home_page_inner #content_space #home_buttons button:active {
