@@ -21,85 +21,27 @@
 }
 
 #home_page_inner{
-    background-color:#FFC71F;
+    width: 80%;
     display: flex;
-    border: solid;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+    background: #FFFFFF;
     padding: 2rem;
     border-radius: 1rem;
-    width: 80%;
 }
+
+
+
 
 #home_page_inner img{
     width: 35%;
 }
 
-@media(max-width: 769px){
+@media(max-width: 768px){
     #home_page_inner img{
         width: 50%;
     }
 }
 
-#home_page_inner #content_space{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2%;
-    width: 90%;
-}
-
-#home_page_inner #content_space h2{
-    font-family: 'Inter', sans-serif;
-    color: white;
-}
-
-#home_page_inner #content_space p{
-    font-family: 'Inter', sans-serif;
-    color: rgba(255, 255, 255, 0.655);
-    text-align: center;
-}
-
- #home_buttons{
-    width: 70%;
-}
-
- #home_buttons button{
-     width: 50%;
-     padding: 0.55rem;
-    border: none;
-    border-radius: 7px;
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
-    background: transparent;
-    cursor: pointer;
-    border: solid 2px white;
-    transition: 0.3s ease-in-out;
-}
-
-
-
-
-
-#home_buttons button a{
-    color: white;
-    text-decoration: none;
-}
-
-#home_buttons button:hover{
-    background: white;
-    color: #ffffffb6;
-    color: black;
-}
-
-#home_buttons button:hover a{
-    color: black;
-}
-
-#home_buttons button:active{
-    background: rgba(255, 255, 255, 0.389);
-}
